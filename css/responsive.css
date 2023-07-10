@@ -1,0 +1,17 @@
+@media screen and (min-width: 576px) {
+  .ms_debug {
+    background-color: var(--db-color-red);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .ms_debug {
+    background-color: var(--db-color-blue);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .ms_debug {
+    background-color: var(--db-color-yellow);
+  }
+}
