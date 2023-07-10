@@ -14,13 +14,13 @@
 
 /* body */
 
+img {
+  width: 100%;
+}
+
 /* header */
 
 header {
   line-height: 100px;
   height: 100px;
-}
-
-section {
-  line-height: 100px;
 }
