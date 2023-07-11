@@ -18,9 +18,20 @@ img {
   width: 100%;
 }
 
+a {
+  text-decoration: none;
+  color: currentColor;
+}
 /* header */
 
 header {
-  line-height: 100px;
-  height: 100px;
+  line-height: 50px;
+  height: 50px;
+}
+
+.line {
+  height: 3px;
+  width: 10%;
+  border-radius: 20px;
+  background-color: currentColor;
 }
