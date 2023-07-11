@@ -142,7 +142,12 @@
             </div>
           </div>
 
-          <div class="m-2 btn rounded-4 border border-1">bottone</div>
+          <a href="#">
+            <div class="m-2 btn rounded-1 border border-1 text-white">
+              <i class="bi bi-download mx-2"></i>
+              Download
+            </div>
+          </a>
         </div>
       </section>
 
@@ -157,14 +162,63 @@
             <div class="line"></div>
           </div>
 
-          <div class="mx-auto text-start w-50 border-bottom">name</div>
-          <div class="mx-auto text-start w-50 border-bottom">email</div>
-          <div class="mx-auto text-start w-50 border-bottom">phone number</div>
-          <div class="mx-auto text-start w-50 border-bottom">message</div>
+          <form action="http://learning.tizianonicolai.com/request-catcher/">
+            <div class="mx-auto text-start w-50 border-bottom">
+              <!-- name -->
+              <div class="form-floating my-2">
+                <input
+                  type="text"
+                  class="form-control border-bottom border-0 border-dark"
+                  name="name_input "
+                  id="name_input"
+                  placeholder="Name"
+                />
+                <label for="name_input">Name</label>
+              </div>
 
-          <div class="m-2 bg-success btn rounded-4 border border-1">
-            bottone
-          </div>
+              <!-- email -->
+              <div class="form-floating my-2">
+                <input
+                  type="email"
+                  class="form-control border-bottom border-0 border-dark"
+                  name="email_input "
+                  id="email_input"
+                  placeholder="name@example.com"
+                />
+                <label for="email_input">Email address</label>
+              </div>
+
+              <!-- phone number -->
+
+              <div class="form-floating my-2">
+                <input
+                  type="text"
+                  class="form-control border-bottom border-0 border-dark"
+                  name="phone_input "
+                  id="phone_input"
+                  placeholder="phone"
+                />
+                <label for="phone_input">phone</label>
+              </div>
+
+              <!-- text area -->
+              <div class="my-2 form-floating">
+                <textarea
+                  class="form-control border-bottom border-0 border-dark"
+                  placeholder="Leave a comment here"
+                  name="txt_area_input"
+                  id="txt_area_input"
+                ></textarea>
+                <label for="txt_area_input">message</label>
+              </div>
+            </div>
+
+            <div
+              class="m-2 bg-success btn rounded-4 border border-1 text-white"
+            >
+              bottone
+            </div>
+          </form>
         </div>
       </section>
     </main>
