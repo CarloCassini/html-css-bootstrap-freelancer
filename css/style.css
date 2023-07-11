@@ -35,3 +35,13 @@ header {
   border-radius: 20px;
   background-color: currentColor;
 }
+
+.circle {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+}

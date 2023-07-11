@@ -168,7 +168,7 @@
               <div class="form-floating my-2">
                 <input
                   type="text"
-                  class="form-control border-bottom border-0 border-dark"
+                  class="form-control rounded-0 border-bottom border-0 border-dark"
                   name="name_input "
                   id="name_input"
                   placeholder="Name"
@@ -180,7 +180,7 @@
               <div class="form-floating my-2">
                 <input
                   type="email"
-                  class="form-control border-bottom border-0 border-dark"
+                  class="form-control rounded-0 border-bottom border-0 border-dark"
                   name="email_input "
                   id="email_input"
                   placeholder="name@example.com"
@@ -193,7 +193,7 @@
               <div class="form-floating my-2">
                 <input
                   type="text"
-                  class="form-control border-bottom border-0 border-dark"
+                  class="form-control rounded-0 border-bottom border-0 border-dark"
                   name="phone_input "
                   id="phone_input"
                   placeholder="phone"
@@ -204,19 +204,18 @@
               <!-- text area -->
               <div class="my-2 form-floating">
                 <textarea
-                  class="form-control border-bottom border-0 border-dark"
+                  class="form-control rounded-0 border-bottom border-0 border-dark"
                   placeholder="Leave a comment here"
                   name="txt_area_input"
                   id="txt_area_input"
                 ></textarea>
                 <label for="txt_area_input">message</label>
               </div>
-            </div>
-
-            <div
-              class="m-2 bg-success btn rounded-4 border border-1 text-white"
-            >
-              bottone
+              <div class="ms_debug">
+                <button type="submit" class="btn btn-success my-3">
+                  Submit
+                </button>
+              </div>
             </div>
           </form>
         </div>
@@ -233,12 +232,21 @@
 
           <div class="col-md-4">
             <h6>around the world</h6>
-            <div>
-              <i class="bi bi-facebook p-1 border rounded-circle"></i>
-              <i class="bi bi-google p-1 border rounded-circle"></i>
+            <div class="d-flex justify-content-center gap-2">
+              <div class="circle">
+                <i class="bi bi-facebook p-1"></i>
+              </div>
 
-              <i class="bi bi-twitter p-1 border rounded-circle"></i>
-              <i class="bi bi-linkedin p-1 border rounded-circle"></i>
+              <div class="circle">
+                <i class="bi bi-google p-1"></i>
+              </div>
+
+              <div class="circle">
+                <i class="bi bi-twitter p-1"></i>
+              </div>
+              <div class="circle">
+                <i class="bi bi-linkedin p-1"></i>
+              </div>
             </div>
           </div>
 
